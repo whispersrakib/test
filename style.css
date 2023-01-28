@@ -143,10 +143,10 @@ ul>li{
     0%{top: 17px;
 
     }
-    50%{ top: 17rem;
+    50%{ top: 15.5rem;
     }
 
-    100%{top: 22rem;
+    100%{top: 20.5rem;
 
     }
 }
@@ -437,7 +437,7 @@ animation: show 2.5s 2.5s 1 forwards;
     font-size: 12px;
     line-height: 22px;
     color: #969696;
-    bottom: 0;
+    bottom: -1.2rem;
     left: 20px;
 }
 
