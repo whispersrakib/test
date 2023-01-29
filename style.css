@@ -87,6 +87,7 @@ ul>li{
     width: 160px;
     height: 250px;
     z-index: 1;
+    transition: all 5s;
     animation: move-bot 5s  0s 1 forwards
 }
 .bot>img{
@@ -102,14 +103,16 @@ ul>li{
     border-radius: 50%;
     z-index: -1;
     animation: make-big 5s 0s 1 forwards;
+    
 }
 .cap{
     position: absolute;
-    top: 17px;
+    top: 5%;
     height: 80px;
     width: 126px;
     z-index: 2;
     animation: move-cap 5s  0s 1 forwards;
+    transition: all 5s;
 }
 .cap>img{
     width: 100%;
@@ -137,16 +140,16 @@ ul>li{
     100%{
         transform: scale(1.9);
     }
-
+    
 }
 @keyframes move-cap{
-    0%{top: 17px;
+    0%{top: 5%;
 
     }
-    50%{ top: 15.5rem;
+    50%{ top: 46.3%;
     }
 
-    100%{top: 20.5rem;
+    100%{top: 64.3%;
 
     }
 }
@@ -157,7 +160,7 @@ ul>li{
     50%{ bottom: 0;
     }
 
-    100%{bottom: -5rem;
+    100%{bottom: -18%;
 
     }
 }
@@ -181,6 +184,7 @@ text-align: center;
 color: #13395B;
 opacity: 0;
 animation: show 2.5s 2.5s 1 forwards;
+
 }
 .detail p{
     font-family: 'Inter';
